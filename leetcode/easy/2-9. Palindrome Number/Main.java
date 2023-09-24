@@ -49,7 +49,7 @@ class Solution {
             digits.addLast(num % 10);
             num /= 10;
         }
-
+//size
         while (digits.size() > 1) {
             if (digits.pollFirst() != digits.pollLast()) {
                 return false;
