@@ -5,6 +5,7 @@ public class ExcelSheetColumnNumber {
         for(int i=0;i<=n;i++){
             sum+=Math.pow(26,n-i)*(columnTitle.charAt(i)-64);
         }
+
         return sum;
     }
 }
